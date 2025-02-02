@@ -1,6 +1,7 @@
 .globl classify
 
 .text
+
 # arguments:
 #   a0 (int)        argc
 #   a1 (char**)     argv
@@ -18,6 +19,7 @@
 #
 # Usage:
 #   main.s <M0_PATH> <M1_PATH> <INPUT_PATH> <OUTPUT_PATH>
+
 classify:
     #ebreak
     li t0 4
